@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #471306;
+}
+
+.card {
+  width: 600px;
+  height: 300px;
+  position: relative;
+  bottom: 100px;
+
+}
+
+
+.front,
+.back {
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: rotate(7deg);
+  margin: 10px;
+}
+
+.front {
+  background: url('https://wallpapers.com/images/high/business-card-background-2560-x-1600-hyfxos61khd16191.webp');
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+    
+}
+
+.back {
+  background: url('https://wallpapers.com/images/high/business-card-background-2560-x-1600-hyfxos61khd16191.webp');
+  background-size: cover;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+
+}
+
+.personal_info{
+    color: rgb(227, 171, 2);
+    text-align: left;
+    padding-left: 10%;
+}
+#profilePicture{
+    height: 200px;
+    position: relative;
+
+}
+#fullName , #address , #email{
+    position: relative;
+    right: 40px;
+    bottom: 10px;
+}
+#id{
+    color: rgb(227, 171, 2);
+    position: relative;
+    top: 80px;
+    font-size: 20px;
+}
+button {
+position: relative;
+bottom: 140px;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+}
